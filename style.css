@@ -1,0 +1,125 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-brand {
+    margin-right: 30px;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cabecalho {
+    width: 100%;
+    background-color: #008f4c;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    margin: 0;
+}
+
+.cabecalho h1 {
+    margin: 0 0 15px 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.cabecalho p {
+    margin: 0;
+    font-size: 18px;
+    
+}
+
+main {
+    width: 100%;
+    max-width: 1100px;
+    margin: 40px auto 60px auto;
+    text-align: center;
+}
+
+main h2 {
+    margin-bottom: 25px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.table-responsive {
+    width: 100%;
+}
+
+table {
+    width: 100% ;
+    margin: 0 auto ;
+    background-color: white;
+}
+
+table th,
+table td {
+    text-align: center 
+    vertical-align: middle !important;
+}
+
+footer {
+    width: 100%;
+    background-color: #063d27;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    margin: 0;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    .cabecalho {
+        padding: 40px 15px;
+    }
+
+    .cabecalho h1 {
+        font-size: 30px;
+    }
+
+    .cabecalho p {
+        font-size: 16px;
+    }
+
+    main {
+        width: 100%;
+        padding: 0 15px;
+        margin-top: 30px;
+    }
+
+    .navbar .container {
+        justify-content: space-between;
+    }
+
+    .navbar-nav {
+        text-align: center;
+    }
+}
+ 
