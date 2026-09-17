@@ -116,10 +116,10 @@ footer p {
 
     .navbar .container {
         justify-content: space-between;
+        text-align: center;
     }
 
     .navbar-nav {
         text-align: center;
     }
 }
- 
